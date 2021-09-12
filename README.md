@@ -1,5 +1,13 @@
 CARBO TRACK
 ==================
+## TEAM MEMBERS 
+[A T Aswini](https://github.com/Ash-394)
+
+[Ashitha P R](https://github.com/Ashitha-18)
+
+[Athira M](https://github.com/Athira502)
+
+[Ann Mol](https://github.com/AnnMol-2002)
 ## WHAT IT DOES
 
 Our app encourages people to work towards  a sustainable future. We have set up a gamified environment where people can connect with their friends and challenge each other to take steps for an eco-friendly living.
