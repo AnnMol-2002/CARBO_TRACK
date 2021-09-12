@@ -58,13 +58,13 @@ There are a lot of things that we learnt throughout the course of this hackathon
 
 ## CHALLENGES WE RAN INTO
 
-- Incorporating all our ideas properly into our prototype
+- Incorporating all our ideas properly into our prototype:
    Organising and connecting our ideas to design the prototype in figma was a task.
-- Building the front end of the app using flutter 
+- Building the front end of the app using flutter:
    Pushing the flutter project into github was a bit difficult.
-- Hosting the website 
+- Hosting the website:
    We faced some issues while deploying the github page.
-- Learning the basics of AI and ML technology. 
+- Learning the basics of AI and ML technology:
    As we are beginners, it would still take up a lot of time, work and knowledge for the model to be functional. 
 
 ## BUILT WITH
