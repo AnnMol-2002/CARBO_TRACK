@@ -1,0 +1,182 @@
+body {
+	margin:0;
+	width:100vw;
+	height:100vh;
+	overflow:hidden;
+	font-family: 'McLaren', cursive;
+}
+
+nav {
+	position:absolute;
+	top:0;
+	right:0;
+	display:flex;
+	flex-direction:row-reverse;
+	width:40vw;
+	height:50px;
+	align-items:center;
+	justify-content:flex-start;
+	gap: 20px;
+	margin-right:20px;
+}
+
+nav a {
+	color:black;
+	text-decoration:none;
+	padding:0.5em;
+	cursor:pointer;
+}
+
+nav a img {
+	width:32px;
+	height:32px;
+	border-radius:50%;
+	object-fit: cover;
+	background-color:#e8f3eb;
+}
+
+nav a:hover {
+	background-color:#1db96f ;
+	color: black;
+	border-radius:3px;
+}
+header {
+	color:black;
+	background-color:#e8f3eb ;
+	height:400px;
+	width:100%;
+}
+
+header {
+	background-color:#e8f3eb;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+header h1 {
+	font-size: 25px;
+	margin: 0;
+}
+
+header h2 {
+	font-size: 40px;
+	margin: 0;
+	color: black;
+	/* Make all of the characters to uppercase*/
+	text-transform: uppercase;
+}
+
+header h3 {
+	font-size: 30px;
+	margin: 0;
+	color: #5E616E;
+}
+
+header img {
+	width: 320px;
+	height: 320px;
+	background-color: #fff;
+	border-radius: 100%;
+	margin-left: 40px;
+}
+header button{
+	background-color:#1db96f ;
+	border-radius:2rem;
+	margin-left:40px;
+}
+
+main {
+	background-color:#1db96f;
+	background-size:cover;
+	background-position:50% 50%;
+	width:100vw;
+	height:100vh;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+
+main div {
+	
+	margin:0 1em;
+	text-align:center;
+	background-color: #e8f3eb;
+	border-radius:10px;	
+	padding:20px;
+	box-sizing:border-box;
+}
+
+main div > img {
+	width:200px;
+	height:200px;
+	object-fit: contain;
+}
+
+main h1 {
+	font-size:96px;
+	color:#003200;
+}
+
+main h2 {
+	font-size:36px;
+}
+
+main form {
+	display:flex;
+	flex-direction:column;
+	gap:20px;
+	margin-bottom:20px;
+	width:320px;
+}
+
+main form input {
+	width:100%;
+	padding:0.5em;
+	box-sizing:border-box;
+	border-radius:3px;
+	border:none;
+}
+
+main form input[type=submit]:hover {
+	background-color:#1db96f ;
+	cursor:pointer;
+}
+
+.dash {
+	background-color:#1db96f;
+	background-size:cover;
+	background-position:50% 50%;
+	width:100vw;
+	height:100vh;
+	align-items:center;
+	justify-content:center;
+}
+
+.dash div {
+	
+	margin:0 1em;
+	text-align:center;
+	background-color: #e8f3eb;
+	border-radius:10px;	
+	padding:20px;
+	box-sizing:border-box;
+}
+
+
+
+
+
+footer {
+	position:absolute;
+	bottom:0;
+	left:0;
+	height:50px;
+	width:100vw;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	color:white;
+}

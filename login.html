@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=0.5">
+		<link rel="stylesheet" href="styles.css">
+		<script type="module" src="script.js"></script>
+		<title>Login!</title>
+	</head>
+	<body>
+		<nav>
+			<a href='index'>Home</a>
+			<a href='signup'>Sign-In</a>
+		</nav>
+		<main>
+			<div>
+				<h2>LOGIN</h2>
+				<form action='/~/projects/login-system/login' method='POST' enctype='multipart/form-data'>
+					<input type='email' name='username' placeholder='Email' required>
+					<input type='password' name='password' placeholder='Password' required>
+					<input href='dashboard' type='submit' value='Log In'>
+					<input type='hidden' name='redirecturl' value='/~/projects/login-system/account'>
+				</form>	
+			</div>
+		<footer>
+			© 2021 A 4 Hackers
+		</footer>
+	</body>
+</html>
